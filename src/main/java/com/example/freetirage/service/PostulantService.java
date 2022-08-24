@@ -1,2 +1,7 @@
-package com.example.freetirage.service;public interface PostulantService {
+package com.example.freetirage.service;
+
+import com.example.freetirage.model.Postulant;
+
+public interface PostulantService {
+    Postulant savePostulant(Postulant postulant);
 }
